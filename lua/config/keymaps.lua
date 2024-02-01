@@ -1,8 +1,6 @@
-local keymap = vim.keymap
+--normal maps 
+vim.keymap.set("n","<leader>e",vim.cmd.Ex)
 
-
---leader
-
--- my vim keybindings
---(mode, keypress,what happens)
+--insert maps
+vim.keymap.set("i","<M-[>","<Esc>")
 
