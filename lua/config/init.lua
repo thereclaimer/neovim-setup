@@ -23,11 +23,15 @@ local opts = {
 	install = {
 		colorscheme = {"gruvbox"}
 
-	}
+	},
+	rtp = {
+		disabled_plugins = {
+			"netrw",
+			"netrwplugin",
+		}
+	},
 }
 
 require("lazy").setup(plugins,opts)
 require("config.keymaps")
 require("config.style")
-
-
