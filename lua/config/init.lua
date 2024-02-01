@@ -17,8 +17,7 @@ local plugins = "plugins"
 
 local opts = {
 	defaults = {
-		lazy = false,
-		version = nil
+		lazy = true,
 	},
 	install = {
 		colorscheme = {"gruvbox"}
