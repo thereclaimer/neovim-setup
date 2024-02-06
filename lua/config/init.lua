@@ -32,6 +32,5 @@ local opts = {
 }
 
 require("lazy").setup(plugins,opts)
-require("mason").setup() 
 require("config.keymaps")
 require("config.style")
