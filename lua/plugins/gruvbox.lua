@@ -5,6 +5,14 @@ return {
 		vim.cmd('colorscheme gruvbox')
 	end
 		, 
-	lazy = false,
-	opts = ...
+	 	lazy = false,
+	opts = {
+           italic = {
+		strings = false, 
+		emphasis = false,
+		comments = false,
+		operators = false,
+		folds = false,
+          },
+	},
 }
