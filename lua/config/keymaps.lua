@@ -8,6 +8,7 @@ vim.keymap.set("n","<leader>w","<C-w>w",opts)
 vim.keymap.set("n","<leader>q",":q<CR>",opts)
 vim.keymap.set("n","<leader>Q",":wq<CR>",opts)
 vim.keymap.set("n","<leader>s",":w<CR>",opts)
+vim.keymap.set("n","<leader>L",":Lazy<CR>",opts)
 
 --insert maps
 vim.keymap.set("i","<M-[>","<Esc>")
