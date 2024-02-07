@@ -34,3 +34,11 @@ local opts = {
 require("lazy").setup(plugins,opts)
 require("config.keymaps")
 require("config.style")
+
+
+	
+require("notify").setup({
+	background_colour = "#2b2b2b",
+})
+
+
